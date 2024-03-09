@@ -2,7 +2,7 @@ import cv2
 import torch
 import numpy as np
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='D:/armas/model/armas.pt')
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='armas.pt')
 
 cap = cv2.VideoCapture(0)
 
